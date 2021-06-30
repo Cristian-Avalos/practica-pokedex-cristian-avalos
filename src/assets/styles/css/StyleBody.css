@@ -1,0 +1,137 @@
+/* buscador */
+nav{
+    width:100%;
+    height:60px;
+    font-family:sans-serif;
+    background:#aeb6bf;
+    border-bottom:4px solid rgba(0,0,0,0.1);
+}
+
+.cont{
+    height:100%;
+    padding-top:0px;
+    float:right;
+}
+.cont label{
+    color:#797d7f;
+    font-size:12.9px;
+}
+
+input[type="search"]{
+    width:170px;
+    margin:10px;
+    padding:10px 16px;
+    border-radius:32px;
+    outline:none;
+    border:2px solid #ccd1d1;
+    background:#aeb6bf;
+    transition:all 0.5s;
+}
+input[type="search"]:focus{
+    background:#fff;
+    width:300px;
+}
+/* ------------- */
+
+/* ------------ */
+.buttonAgregar {
+    background-color: #797d7f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .buttonBack {
+    background-color: #797d7f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .buttonSave {
+    background-color: darkblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+/* ----------------- */
+
+/* ---------- */
+
+.ContainerA1{
+    text-align: center;
+}
+
+.FormAddPokemon{
+    display: inline-flex;
+    /* border: 1px solid white; */
+    width: 90%;
+    max-height: 600px;
+    /* height: 350px; */
+    padding-left: 65px;
+    padding-top: 20px;
+    color: white;
+}
+
+.titleh1{
+    color: white;
+}
+
+.row1 {
+    /* display: inline-block; */
+    /* border: 2px solid red; */
+    /* background-color: rgb(16, 5, 48); */
+    text-align: center;
+    font-size: 30px;
+    padding-left: 20px;
+    width: 40%;
+    /* height: 450px; */
+}
+
+.row2 {
+    /* display: inline-block; */
+    /* border: 2px solid red; */
+    background-color: rgb(72, 68, 85);
+    width: 45%;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* height: 550px; */
+}
+
+.pwarning{
+    color: red;
+    /* background-color: red; */
+}
+
+.inputAdd {
+    margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+  border: none; 
+  color: #525c66; 
+  font-size: 1em;
+  resize: horizontal; 
+}
+/* ------------ */
+
+

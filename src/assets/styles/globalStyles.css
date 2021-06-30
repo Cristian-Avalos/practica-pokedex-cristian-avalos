@@ -1,0 +1,113 @@
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background: darkblue;
+}
+
+.spanName {
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.container{
+  text-align: center;
+  display: inline-block;
+}
+
+.containerList1{
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.containerList{
+  text-align: center;
+  display: inline-block;
+  max-width: 450px;
+  /* border: 1px solid white; */
+  background-color: #929293;
+  margin: 5px;
+}
+
+.container5{
+  display: inline-flex;
+  background: #000000;
+  width: 100%;
+}
+
+.container2{
+  text-align: center;
+  display: inline-block;
+  background: #aeb6bf;
+  width: 40%;
+}
+
+.StylePokedex{
+  color: white;
+}
+
+.container3 {
+  display: inline-block;
+  width: 100%;
+  background: darkblue;
+}
+
+.image--cover {
+  width: 150px;
+  height: 150px;
+  border-radius: 20%;
+  margin: 20px;
+  object-fit: cover;
+  object-position: center right;
+}
+.users {
+  text-decoration: none;
+  color: #374457;
+  font-size: 18px;
+  font-weight: bold;
+  /* opcional: inline-block para que las cards vayan una al lado de la otra */
+  display: block;
+}
+/* alinear la foto y la info */
+.image--cover,
+.user-info {
+  vertical-align: middle;
+  text-align: left;
+}
+/* mismo margin que la foto, inline-block para que quede a continuación */
+.user-info {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 0;
+}
+/* los span van block para quedar uno arriba del otro */
+.user-info>span {
+  display: block;
+}
+
+.titleStyle {
+  /* background-color: chartreuse; */
+  text-align: center;
+  font-family: Arial Black; 
+  font-weight: bold; 
+  font-size: 40px; 
+  color: #fff; 
+  text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+
+.titleStyle2 {
+    text-align: left; 
+    font-family: Arial Black; 
+    font-weight: bold; font-size: 30px; 
+    background: #202020; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+}
